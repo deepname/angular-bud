@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="app/main.js"></script>
+
+    <script src="app/features/auth/module.auth.js"></script>
+    <script src="app/features/auth/service.auth.js"></script>
+    <script src="app/features/auth/users/module.auth.users.js"></script>
+    <script src="app/features/auth/users/controller.auth.users.js"></script>
+
+    <script src="app/features/posts/module.posts.js"></script>
+    <script src="app/features/posts/service.posts.js"></script>
+    <script src="app/features/posts/controller.posts.js"></script>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-app="bud">
+<div class="container-fluid">
+    <h2 ng-show="showLoading">Loading...</h2>
+    <ui-view></ui-view>
+</div>
+</body>
+</html>
