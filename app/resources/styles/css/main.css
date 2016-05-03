@@ -1,0 +1,25 @@
+/* line 2, ../../../features/posts/_posts.scss */
+.container *,
+.container *:before,
+.container *:after {
+  box-sizing: border-box !important;
+}
+/* line 8, ../../../features/posts/_posts.scss */
+.container .row.masonry {
+  -moz-column-width: 18em;
+  -webkit-column-width: 18em;
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em;
+}
+/* line 14, ../../../features/posts/_posts.scss */
+.container .row.masonry .col-md-3.well {
+  display: inline-block;
+  padding: .25rem;
+  width: 100%;
+  float: none;
+}
+/* line 20, ../../../features/posts/_posts.scss */
+.container .row.masonry .col-md-3 .well {
+  position: relative;
+  display: block;
+}
